@@ -8,4 +8,14 @@ const userAge = parseInt(prompt ('According to age there are special discounts, 
 console.log(userAge);
 
 /* eseguiamo i calcoli per il costo biglietto */
+let priceKm = 0.21;
+let discountedPrice = userKm * priceKm
+console.log(discountedPrice)
 // controllo che i dati inseriti siano corretti 
+if ( (isNaN(userKm, userAge) == true) || (userKm, userAge < 0) ) {
+    console.log('Error, number not accepted, reload the page')
+} else {
+    if (userAge < 18) {
+        let 
+    }
+}
