@@ -8,7 +8,7 @@ const userAge = parseInt(prompt ('According to age there are special discounts, 
 console.log(userAge);
 
 /* eseguiamo i calcoli per il costo biglietto */
-let priceKm = 0.21;
+const priceKm = 0.21;
 let NotDiscountedPrice = userKm * priceKm;
 console.log('The cost of your ticket is ' + NotDiscountedPrice.toFixed(2));
 // controllo che i dati inseriti siano corretti 
